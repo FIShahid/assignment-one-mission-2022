@@ -23,11 +23,11 @@ h1{
     width: 40%;
     margin: 100px;
 }
-.header-img{
+.img-div{
     width:40%;
     margin: 100px;
 }
-.header-img img{
+.img-div img{
     width: 100%;
     margin-top: -100px;
 }
@@ -70,3 +70,12 @@ h1{
     
 }
 /* end of second-section */
+
+/* Third-section */
+.third-section{
+    display: flex;
+}
+.fourth-section{
+    display: flex;
+}
+/* end of Third-section */
