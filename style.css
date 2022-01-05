@@ -43,5 +43,30 @@ h1{
 /*end of top-section*/
 
 /* second-section */
+.mission{
+    text-align: center;
+    font-size: 40px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #FFF4D6;
+}
 
+.card img {
+    width: 50%;
+}
+.card-column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.card-flex{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
 /* end of second-section */
