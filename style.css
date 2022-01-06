@@ -3,6 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+   
 }
 h1{
     font-size: 40px;
@@ -42,7 +43,6 @@ h1{
 }
 .img-div img{
     width: 100%;
-    margin-top: -100px;
 }
 .button-style{
     text-decoration: none;
@@ -64,7 +64,6 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #FFF4D6;
 }
 
 .card img {
@@ -114,11 +113,21 @@ h1{
 
 .bonus{
     display: flex;
+    
 }
-
-.contact h1{
+.bonus .img-div{
+    background-image: url(./images/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 2px left;
+}
+.contact{
     text-align: center;
 }
+.input{
+    text-align: center;
+}
+
 /* end of bonus-section */
 
 
