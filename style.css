@@ -5,16 +5,29 @@ body{
     padding: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
+
+
 /*top-section*/
 
 .top-section{
     display: flex;
     clear: both;
 }
+.header-div p{
+    color: black;
+}
+.card-flex p{
+    color: black;
+}
 .border-left{
-    border-left: 5px solid crimson;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+.border-left h1{
+    margin-left: 20px;
 }
 .span{
     color: darkgoldenrod;
@@ -63,6 +76,17 @@ h1{
     padding: 0 10px;
     margin-left: 20px;
 }
+#card-one{
+    background-color: #4F9DA61A;
+    ;
+}
+#card-two{
+    background-color: aquamarine
+    ;
+}
+#card-three{
+    background-color: #FFF4D6;
+}
 
 .card-flex{
     display: flex;
@@ -74,11 +98,28 @@ h1{
 /* Third-section */
 .third-section{
     display: flex;
+    clear: both;
+    background-image: url(./images/dream-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
 }
 .fourth-section{
     display: flex;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 /* end of Third-section */
+/* Bonus-section */
+
+.bonus{
+    display: flex;
+}
+
+.contact h1{
+    text-align: center;
+}
+/* end of bonus-section */
 
 
 /* footer-section */
@@ -89,5 +130,9 @@ h1{
 }
 .footer-section h3, p{
     color: whitesmoke;
+    font-style: italic;
+}
+footer h3{
+    font-size: 30px;
 }
 /* end of footer */
